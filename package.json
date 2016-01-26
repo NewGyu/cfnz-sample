@@ -11,6 +11,7 @@
   "private": true,
   "dependencies": {
     "cloudformation-z": "*",
+    "commander": "^2.9.0",
     "config": "^1.17.1"
   }
 }
