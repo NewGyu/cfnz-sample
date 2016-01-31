@@ -2,8 +2,9 @@ module.exports = {
   stackName: "ECS-SAMPLE-DEV",
   timeoutInMinutes: 10,
   parameters: {
-    KeyPairName: "docker-sample",
-    InstanceType: "t2.micro"
+    //使わないパラメータがあると怒られる
+//    KeyPairName: "docker-sample",
+//    InstanceType: "t2.micro"
   },
   //custom settings
   prefix: "ECS-SAMPLE-DEV",
