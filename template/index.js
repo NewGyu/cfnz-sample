@@ -72,7 +72,9 @@ module.exports = {
                   "ecs:Poll",
                   "ecs:RegisterContainerInstance",
                   "ecs:StartTelemetrySession",
-                  "ecs:Submit*"
+                  "ecs:Submit*",
+                  "logs:CreateLogStream",
+                  "logs:PutLogEvents"
                 ],
                 "Resource": "*"
               }]
